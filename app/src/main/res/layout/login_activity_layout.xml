@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.LoginActivity">
+
+    <data>
+
+        <variable
+            name="clickListner"
+            type="com.rdc.ascratechassignment.model.interfaces.Listner" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!--   <EditText
+               android:id="@+id/etEmail"
+               android:layout_width="match_parent"
+               android:layout_height="45sp"
+               android:gravity="center"
+               android:hint="Enter Email" />-->
+        <!--<android.support.design.widget.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="#123123"
+            app:boxStrokeColor="@color/gray">-->
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="8dp"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/gray" />
+        <!-- </android.support.design.widget.TextInputLayout>
+
+         <android.support.design.widget.TextInputLayout
+             style="@style/TextInputLayoutStyle"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25dp"
+             android:layout_marginBottom="8dp"
+             android:textColorHint="#123123"
+             app:boxStrokeColor="@color/gray">-->
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/gray" />
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:gravity="center"
+                    android:inputType="textPassword" />
+        -->
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:onClick="olclick"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="25sp"
+            android:background="@color/colorPrimary"
+            android:onClick="olclick"
+            android:text="Register" />
+
+
+    </LinearLayout>
+</layout>

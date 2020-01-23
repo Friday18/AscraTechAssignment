@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AscraTechAssignment</string>
+
+    <string name="generate_pdf">Generate PDF</string>
+    <string name="save">save</string>
+    <string name="gotohome">Goto Home Screen</string>
+    <string name="your_cost">Your Cost</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="enter_quantity">Enter Quantity</string>
+    <string name="enter_product">Enter Product</string>
+    <string name="grand_total">Total :  </string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="book_train">Book Train</string>
+    <string name="review_ticket">Review Ticket</string>
+
+
+</resources>
